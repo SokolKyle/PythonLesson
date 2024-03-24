@@ -191,7 +191,7 @@
 #         p = (a + b + c) / 2
 #         return sqrt(p * (p - a) * (p - b) * (p - c))
 
-# from math import sqrt
+# from geometry import sqrt
 #
 #
 # class Square:
@@ -230,7 +230,7 @@
 # print('Количество подсчетов площади:', Square.get_count())
 # print(Square.square_triangle1(3, 4, 5))
 
-from math import sqrt
+from geometry import sqrt
 
 
 class Square:

@@ -33,25 +33,25 @@ import random
 # for x, y in [[1, 2], [3, 4], [5, 6], [7, 8]]:
 #     print(x, "+", y, "=", x + y)
 
-# import math
+# import geometry
 #
-# num1 = math.sqrt(4)
-# num2 = math.ceil(3.1)
-# num3 = math.floor(3.8)
+# num1 = geometry.sqrt(4)
+# num2 = geometry.ceil(3.1)
+# num3 = geometry.floor(3.8)
 #
 # print(num1)
 # print(num2)
 # print(num3)
-# print(math.pi)
+# print(geometry.pi)
 
-# import math as m
+# import geometry as m
 #
 # num1 = m.sqrt(4)
 # print(num1)
 
-# import math as m
-# # from math import sqrt, ceil
-# from math import *
+# import geometry as m
+# # from geometry import sqrt, ceil
+# from geometry import *
 # num1 = sqrt(4)
 # num2 = ceil(3.1)
 # print(num1, num2)

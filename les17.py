@@ -85,7 +85,7 @@
 # print(square(5))
 # print(square.__doc__)
 
-# from math import pi
+# from geometry import pi
 #
 #
 # def cylinder(r, h):
