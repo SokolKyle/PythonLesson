@@ -24,9 +24,8 @@ class Parser:
             for t in title:
                 game_text = t.get_text(strip=True)
                 # print(game_text)
-                self.res = game_text
-
-
+                self.res = game_text.strip()
+                print(self.res)
 
     def save(self):
         with open(self.path, "w", encoding="utf-8") as f:
