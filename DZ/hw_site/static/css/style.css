@@ -1,0 +1,124 @@
+body {
+    background: rgb(236, 232, 192);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: rgb(0, 140, 255);
+    padding: 20px;
+    margin-top: 0;
+}
+
+.menu a{
+    font-weight: bold;
+    color: white;
+}
+
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.flash{
+    padding: 10px;
+}
+.flash.success{
+    border: 1px solid #21DB56;
+    background: #AEFFC5;
+}
+.flash.error{
+    border: 1px solid #e90606;
+    background: #d37676;
+}
+
+body {
+    background: rgb(236, 232, 192);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: rgb(0, 140, 255);
+    padding: 20px;
+    margin-top: 0;
+}
+
+.menu a{
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.table {
+    border: 1px solid black;
+    text-align: center;
+    background: white;
+   
+    
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    /* margin-top: 0; */
+    
+}
+
+h2>a{
+    display: block; /* Преобразуем ссылку в блочный элемент */
+    text-decoration: none;
+    border: 1px solid rgb(0, 140, 255);
+    color: white;
+    background: rgb(0, 140, 255);
+    margin-top: 0;
+    
+}
+
+
+
+.input input{
+    color: white;
+    background: rgb(0, 140, 255);
+    width: 200px;
+    margin: 15px;
+    align-items: flex-end;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 140, 255);
+}
+
+.title{
+    margin-top: 0;
+}
+
+.input{
+    margin: 15px;
+}
+
+.annonce{
+    background: white;
+}
+
+ul .table{
+    margin: 0 10px;
+}
+
+div .input{
+    align-items: flex-end;
+}

@@ -2,5 +2,15 @@
 
 {% block content %}
 {{ super() }}
-Содержимое главной страницы
+<hr>
+<h2>Список статей</h2>
+<ul>
+    {% for p in posts %}
+    <li>
+        <p class="title"><a href="{{url_for('show_post', alias=p.url)}}">{{p.title}}</a></p>
+        <div class="annonce"><p>{{p.text[:240] | striptags}}</p></div>
+    </li>
+
+    {% endfor %}
+</ul>
 {% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ super() }}
+
+<h1>Pricing</h1>
+<ul>
+    {% for c in curse %}
+    <li class="table">
+        <h2 class="title"><a href="{{ url_for('show_curs', id_curs=c.id) }}">{{ c.title }}</a></h2>
+        <div class="annonce"><h3>{{ c.text }}</h3></div>
+        <div class="annonce"><p>{{ c.curs }}</p></div>
+        <div class="input"><p><input type="submit" value="Купить"></p></div>
+            </li>
+    {% endfor %}
+</ul>
+{% endblock %}
