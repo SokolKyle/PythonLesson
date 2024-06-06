@@ -1,0 +1,16 @@
+{% extends 'skils/base.html' %}
+
+
+{% block content %}
+<h1>Блог</h1>
+{% for blog in blogs %}
+    <div class="element">
+        <h2 class="top"><a href="{% url 'detail' blog.id %}">{{ blog.title }}</a></h2>
+        <div class="text">
+            <h5>{{ blog.date }}</h5>
+            <p>{{ blog.description }}</p>
+        </div>
+    </div>
+{% endfor %}
+
+{% endblock %}
