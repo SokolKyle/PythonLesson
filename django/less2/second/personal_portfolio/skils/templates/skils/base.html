@@ -1,12 +1,28 @@
-{% load static %}
+
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'skils/favicon.ico' %}">
 </head>
 <body>
+
+<div class="menu">
+    <div class="wrap">
+        <div class="logo">
+            <a href="{% url 'index' %}"><img src="{% static 'skils/logo.png '%}" alt=""></a>
+        </div>
+        <ul>
+            <li><a href="{% url 'index' %}">Главная</a></li>
+            <li><a href="{% url 'blogs' %}">Блог</a></li>
+            <li><a href="{% static 'skils/resume.pdf'%}" target="_blank">Резюме</a></li>
+        </ul>
+    </div>
+</div>
+
 <div class="content">
     <div class="wrap">
         {% block content%}
