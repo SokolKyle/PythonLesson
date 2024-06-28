@@ -93,22 +93,60 @@ button{
     box-shadow: 0 2px 8px 2px #003366;
     margin-bottom: 20px;
     font-size: 20px;
-
+    padding: 20px;
 }
 
 .content a{
     color: #000;
     display: block;
-    padding: 20px;
+    
 }
 
 
+.but{
+    display: flex;
+    align-items: flex-end;
 
+}
 
+.good{
+    background: teal;
 
+}
 
+.remove{
+    background: orangered;
+}
 
+a b{
+    color: orangered;
+}
 
+.register ul{
+    margin-top: -16px;
+}
+
+.register li{
+    box-shadow: none;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.helptext{
+    font-size: 14px;
+
+}
+
+.register label{
+    color: teal;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.register input{
+    width: 100%;
+}
 
 
 
